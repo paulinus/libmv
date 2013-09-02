@@ -747,4 +747,4 @@ IF (EXISTS "${CMAKE_SOURCE_DIR}/cmake/uninstall.cmake.in")
                 "${CMAKE_CURRENT_BINARY_DIR}/CeresConfigVersion.cmake"
                 "${CMAKE_SOURCE_DIR}/cmake/depend.cmake"
           DESTINATION ${CMAKECONFIG_INSTALL_DIR})
-ENDIF(EXISTS "${CMAKE_SOURCE_DIR}/cmake")
+ENDIF(EXISTS "${CMAKE_SOURCE_DIR}/cmake/uninstall.cmake.in")
