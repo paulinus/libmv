@@ -21,6 +21,7 @@ SET(MULTIVIEW_SRC affine.cc
                   robust_estimation.cc
                   robust_euclidean.cc
                   robust_euclidean_resection.cc
+                  robust_five_point.cc
                   robust_fundamental.cc
                   robust_homography.cc
                   robust_resection.cc
@@ -85,6 +86,7 @@ MULTIVIEW_TEST(resection)
 MULTIVIEW_TEST(robust_affine)
 MULTIVIEW_TEST(robust_estimation)
 MULTIVIEW_TEST(robust_euclidean_resection)
+MULTIVIEW_TEST(robust_five_point)
 MULTIVIEW_TEST(robust_euclidean)
 MULTIVIEW_TEST(robust_fundamental)
 MULTIVIEW_TEST(robust_homography)
