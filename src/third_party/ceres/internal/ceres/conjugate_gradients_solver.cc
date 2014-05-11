@@ -56,7 +56,7 @@ bool IsZeroOrInfinity(double x) {
 }
 
 // Constant used in the MATLAB implementation ~ 2 * eps.
-const double kEpsilon = 2.2204e-16;
+//const double kEpsilon = 2.2204e-16;
 
 }  // namespace
 
