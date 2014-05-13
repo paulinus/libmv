@@ -7,6 +7,7 @@ ADD_SUBDIRECTORY(gtest)
 ADD_SUBDIRECTORY(gflags)
 ADD_SUBDIRECTORY(ldl)
 ADD_SUBDIRECTORY(ssba)
+ADD_SUBDIRECTORY(OpenExif)
 
 # Configuration for Ceres
 SET(GFLAGS_LIB gflags)
@@ -31,7 +32,6 @@ ENDIF (WIN32)
 IF(APPLE)
   ADD_SUBDIRECTORY(png)
   ADD_SUBDIRECTORY(zlib)
-  ADD_SUBDIRECTORY(OpenExif)
 ENDIF(APPLE)
 
 #Installation macro for all third parties headers
