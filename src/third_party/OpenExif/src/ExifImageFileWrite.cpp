@@ -39,6 +39,7 @@
 #include "ExifImageFile.h"
 #include "ExifRawAppSeg.h"
 #include "ExifImageFileIO.h"
+#include <unistd.h>
 
 
 ExifStatus ExifImageFile::writeImage( void )

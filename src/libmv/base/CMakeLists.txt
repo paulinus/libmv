@@ -5,6 +5,7 @@ SET(BASE_SRC aligned_malloc.cc)
 FILE(GLOB BASE_HDRS *.h)
 
 ADD_LIBRARY(base ${BASE_SRC} ${BASE_HDRS})
+TARGET_LINK_LIBRARIES(base glog)
 
 # make the name of debug libraries end in _d.
 SET_TARGET_PROPERTIES(base PROPERTIES DEBUG_POSTFIX "_d")
