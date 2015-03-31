@@ -24,6 +24,7 @@ SET(MULTIVIEW_SRC affine.cc
                   robust_five_point.cc
                   robust_fundamental.cc
                   robust_homography.cc
+                  robust_panography.cc
                   robust_resection.cc
                   robust_similarity.cc
                   similarity.cc
